@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#registrationForm").submit(function (event) {
       event.preventDefault(); // Prevent form submission
-  
+  include 'process.php'
       // Collect form data
       const formData = {
         name: $("#name").val(),
